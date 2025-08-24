@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+.image-header{
+    background-image: url("/public/bg.jpg");
+}
+
+.animation-blink{
+    animation: blink 5s infinite ease-in-out;
+}
+
+@keyframes blink {
+    0%,100% { opacity: 1; }
+    50% { opacity: 0.5; }
+}
