@@ -60,7 +60,7 @@ export default function Header() {
                   <NavLink 
                     to="/generate" 
                     className={({isActive})=> isActive ? "uppercase text-orange-500 font-bold" : "text-white uppercase font-bold"}>
-                      Generar con AI
+                      Generar AI
                   </NavLink>
                 </nav>
             </div>
