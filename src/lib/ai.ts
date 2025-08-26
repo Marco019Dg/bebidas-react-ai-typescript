@@ -5,4 +5,3 @@ export const openrouter = createOpenRouter({
 });
 
 //Esta función sirve para crear la instancia/configuración de cliente que se conecta con la API de OpenRouter
-console.log("OPENROUTER_KEY:", import.meta.env.VITE_OPENROUTER_KEY);
