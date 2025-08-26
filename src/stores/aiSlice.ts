@@ -1,5 +1,5 @@
 import type { StateCreator } from "zustand";
-import { generateRecipeAI } from "../services/aiService";
+import { generateRecipeAI } from "../services/AIService";
 
 export type AISlice = {
     recipe: string,
